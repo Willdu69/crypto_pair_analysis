@@ -52,8 +52,8 @@ def process_pair(permutation, client, start_date):
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
 
-    API_KEY = "8FBVQV0BXPml3EK9OoQwrjDwBSSgg1bgAP9dp92EGUUpxmfeWpBfXYIND8admXL5"
-    API_SECRET = "CkPE5A6NkVLZnThHJmZFDIN84erSuF2RwLG6abUYCNrGcNfdypCHAN08dQD5RtcO"
+    API_KEY = ""
+    API_SECRET = ""
 
     client = Client(API_KEY, API_SECRET)
     start_date = "2020-01-01"
